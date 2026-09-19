@@ -2,7 +2,7 @@ let saldo = 1000;
 let opcao;
 
 do {
-    opcao = Number(prompt("1 - Depósito\n",  "2 - Saque\n", "3 - Encerrar"
+    opcao = Number(prompt("Escolha uma opção: 1 - Depósito\n \ 2 - Saque\n \ 3 - Encerrar"
     ));
 
     switch (opcao) {
@@ -32,8 +32,5 @@ do {
             alert("Opção inválida");
     }
 
-} while (opcao != 3);
-
-
-
+} while (opcao !== 3);
 

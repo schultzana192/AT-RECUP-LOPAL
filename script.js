@@ -1,8 +1,9 @@
-let numero;
+let numPar;
 
-for (let i= 10; i >= 0; i--) {
-    alert(i)
+for (let i = 1; i <= 50; i++) {
+    if (i % 2 == 0) {
+        alert(i);
+    }
 }
-alert("fim da contagem")
 
 
